@@ -1,0 +1,7 @@
+.catalogo-paginacion {
+  --bs-pagination-color: var(--color-primario);
+  --bs-pagination-hover-color: var(--color-primario-oscuro);
+  --bs-pagination-active-bg: var(--color-primario);
+  --bs-pagination-active-border-color: var(--color-primario);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.2rem rgba(179, 38, 30, 0.25);
+}

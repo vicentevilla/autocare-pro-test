@@ -1,0 +1,53 @@
+.admin-page {
+  min-height: 100vh;
+  background: var(--color-fondo);
+}
+.admin-login {
+  max-width: 480px;
+  margin: 0 1rem;
+  border-radius: var(--radio-borde);
+}
+@media (min-width: 512px) {
+  .admin-login {
+    margin: 0 auto;
+  }
+}
+.admin-login-logo .brand-mark {
+  background: var(--color-primario);
+  color: white;
+}
+.admin-sidebar {
+  background: white;
+  border-right: 1px solid #e3e3e3;
+}
+.admin-sidebar .nav-link {
+  color: var(--color-texto);
+}
+.admin-sidebar .nav-link.active {
+  background: var(--color-primario);
+  color: white;
+}
+@media (min-width: 768px) {
+  .admin-sidebar {
+    min-height: calc(100vh - 58px);
+  }
+}
+.acceso-card {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease;
+}
+.acceso-card:hover {
+  transform: translateY(-3px);
+}
+.miniatura {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.admin-detalle-img {
+  max-height: 220px;
+}
+.perfil-form {
+  max-width: 520px;
+}

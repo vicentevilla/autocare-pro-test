@@ -1,0 +1,33 @@
+:root {
+  --color-primario: #b3261e;
+  --color-primario-oscuro: #7a1a15;
+  --color-secundario: #2b2b2b;
+  --color-fondo: #f5f5f5;
+  --color-tarjeta: #ffffff;
+  --color-texto: #222222;
+  --radio-borde: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-primario);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
